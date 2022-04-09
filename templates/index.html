@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>CodePen - Page Transition Animation</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='stylesheet/style.css') }}">
+
+</head>
+
+<body>
+	<div class="topbar">
+		<a href="#about">About</a>
+	</div>
+
+	<div class="content">
+		<img src="{{ url_for('static', filename='images/rage.png') }}" height="20%" width="20%" alt="">
+		<h2>Welcome To Rage OS</h2>
+		<a href="./about.html" class="link">about us</a>
+	</div>
+	
+
+	<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>
